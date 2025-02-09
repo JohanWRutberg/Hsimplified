@@ -91,7 +91,7 @@ export default function Header() {
         <div className="container header">
           <div className="header_logo">
             <Link href="/">
-              <Image className="logo" src="/img/Logo/Bamboo_logo_twogreen.png" alt="logo" width={100} height={100} />
+              <Image className="logo" src="/img/Logo/HempSimplified_gold_rd.png" alt="logo" width={100} height={100} />
             </Link>
           </div>
           <div className="searchbar">

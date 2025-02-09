@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container flex flex-wrap">
         <div className="footer_logo">
           <Link href="/">
-            <Image className="logo" src="/img/Logo/Bamboo_logo_twogreen.png" alt="logo" width={100} height={100} />
+            <Image className="logo" src="/img/Logo/HempSimplified_gold_rd.png" alt="logo" width={100} height={100} />
           </Link>
           <h4>&copy; 2024 All Rights Reserved.</h4>
           <h3>

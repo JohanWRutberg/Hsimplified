@@ -22,8 +22,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        accent: "#d99605", // Your primary accent color
-        "accent-dark": "#d99605" // A darker shade for hover
+        accent: "#cfaa5c", // Your primary accent color
+        "accent-dark": "#cfaa5c" // A darker shade for hover
       },
 
       animation: {

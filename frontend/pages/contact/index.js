@@ -118,7 +118,7 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Contact Us | Bamboo Sleeping</title>
+        <title>Contact Us | Hemp Simplified</title>
         <meta
           name="description"
           content="BambooSleeping: Contact, Discover luxurious, eco-friendly bamboo pillows and bedding. Experience unmatched comfort, breathability, and sustainability in every product."
@@ -212,7 +212,7 @@ const Contact = () => {
                       isFormValid() ? "group-hover:-translate-y-[120%] group-hover:opacity-0" : ""
                     } transition-all duration-500`}
                   >
-                    Let´s bamboo!{" "}
+                    Let´s hemp!{" "}
                   </span>
                   <BsArrowRight
                     className={`${
