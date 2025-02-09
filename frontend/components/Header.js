@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { IoSearchSharp, IoMoonSharp, IoSearch } from "react-icons/io5";
+import { IoSearchSharp, IoSearch } from "react-icons/io5";
+import { RxSun, RxMoon } from "react-icons/rx";
 import { FaXmark } from "react-icons/fa6";
 import { HiBars3BottomRight } from "react-icons/hi2";
 import { LuSun } from "react-icons/lu";
@@ -125,7 +126,7 @@ export default function Header() {
             </ul>
             {/* For mobile devices */}
             <div className="navlist_mobile_ul">
-              <button onClick={toggleDarkMode}>{darkMode ? <IoMoonSharp /> : <LuSun />}</button>
+              <button onClick={toggleDarkMode}>{darkMode ? <RxMoon /> : <RxSun />}</button>
               <button onClick={openSearch}>
                 <IoSearch />
               </button>

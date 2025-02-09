@@ -55,7 +55,7 @@ body.dark {
 }
 
 .scrollToTop:hover {
-  background-color: #46905b;
+  background-color: #cdb47f;
   color: #fff;
 }
 
@@ -345,6 +345,7 @@ button {
 
 .header_logo .logo {
   content: url("/img/Logo/HempSimplified_black_rd.png");
+  margin-top: 8px;
 }
 
 .dark .header_logo .logo {

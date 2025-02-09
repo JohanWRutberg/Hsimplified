@@ -4,10 +4,10 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 /* import { FaInstagram, FaPinterest, FaFacebook } from "react-icons/fa"; */
-import { LuBedDouble } from "react-icons/lu";
-import { GiPillow } from "react-icons/gi";
+import { FaOilCan } from "react-icons/fa";
+import { GiHemp, GiPill } from "react-icons/gi";
 import { TbStars } from "react-icons/tb";
-import { GiNightSleep, GiBamboo } from "react-icons/gi";
+import { GiChemicalDrop, GiNightSleep, GiBamboo } from "react-icons/gi";
 import { FaInstagram, FaPinterestP } from "react-icons/fa6";
 
 export default function Home() {
@@ -66,39 +66,39 @@ export default function Home() {
         <title>Hemp Simplified</title>
         <meta
           name="description"
-          content="BambooSleeping: Discover luxurious, eco-friendly bamboo pillows and bedding. Experience unmatched comfort, breathability, and sustainability in every product."
+          content="hempsimplified: Discover luxurious, eco-friendly bamboo pillows and bedding. Experience unmatched comfort, breathability, and sustainability in every product."
         />
         <meta
           name="keywords"
           content="bamboo pillows, bamboo bedding, eco-friendly bedding, breathable pillows, sustainable fabric, bamboo duvet covers, bamboo pillowcases, luxury bamboo sheets, cooling bamboo bedding"
         />
         {/* Facebook Meta Tags */}
-        <meta property="og:url" content="https://www.bamboosleeping.com/" />
+        <meta property="og:url" content="https://www.hempsimplified.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Bamboo Sleeping Blog" />
         <meta
           property="og:description"
-          content="BambooSleeping: Discover luxurious, eco-friendly bamboo pillows and bedding. Experience unmatched comfort, breathability, and sustainability in every product."
+          content="hempsimplified: Discover luxurious, eco-friendly bamboo pillows and bedding. Experience unmatched comfort, breathability, and sustainability in every product."
         />
-        <meta property="og:image" content="https://bamboosleeping.com" />
+        <meta property="og:image" content="https://hempsimplified.com" />
 
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="bamboosleeping.com" />
-        <meta property="twitter:url" content="https://www.bamboosleeping.com/" />
+        <meta property="twitter:domain" content="hempsimplified.com" />
+        <meta property="twitter:url" content="https://www.hempsimplified.com/" />
         <meta name="twitter:title" content="Bamboo Sleeping" />
         <meta
           name="twitter:description"
-          content="BambooSleeping: Discover luxurious, eco-friendly bamboo pillows and bedding. Experience unmatched comfort, breathability, and sustainability in every product."
+          content="hempsimplified: Discover luxurious, eco-friendly bamboo pillows and bedding. Experience unmatched comfort, breathability, and sustainability in every product."
         />
-        <meta name="twitter:image" content="https://bamboosleeping.com"></meta>
+        <meta name="twitter:image" content="https://hempsimplified.com"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
 
       <section className="header_data_section">
         <Image
-          src="/img/BambooSleeping_g.jpeg"
+          src="/img/cannabidoilrev.jpg"
           alt="Background"
           height={1632}
           width={2912}
@@ -107,9 +107,9 @@ export default function Home() {
         <div className="header-container flex flex-sb w-100">
           <div className="leftheader_info">
             <h1 data-aos="fade-right">
-              <span>Bamboo </span>Sleeping<span>.</span> <br />
+              <span>Hemp </span>Simplified<span>.</span> <br />
             </h1>
-            <h3 data-aos="fade-right">Your bamboo bedding expert</h3>
+            <h3 data-aos="fade-right">Your hemp expert</h3>
             <div className="flex gap-2">
               <Link href="/contact">
                 <button>Contact</button>
@@ -213,33 +213,33 @@ export default function Home() {
                 <Link href="/topics/pillows">
                   <div className="topics">
                     <div className="flex flex-center topics_svg">
-                      <GiPillow />
+                      <GiHemp />
                     </div>
-                    <h3>Pillows</h3>
+                    <h3>Hemp 1</h3>
                   </div>
                 </Link>
                 <Link href="/topics/bedding">
                   <div className="topics">
                     <div className="flex flex-center topics_svg">
-                      <LuBedDouble />
+                      <FaOilCan />
                     </div>
-                    <h3>Bedding</h3>
+                    <h3>Hemp 2</h3>
                   </div>
                 </Link>
                 <Link href="/topics/comfort">
                   <div className="topics">
                     <div className="flex flex-center topics_svg">
-                      <GiBamboo />
+                      <GiChemicalDrop />
                     </div>
-                    <h3>Comfort</h3>
+                    <h3>Hemp 3</h3>
                   </div>
                 </Link>
                 <Link href="/topics/sleep">
                   <div className="topics">
                     <div className="flex flex-center topics_svg">
-                      <GiNightSleep />
+                      <GiPill />
                     </div>
-                    <h3>Sleep</h3>
+                    <h3>Hemp 4</h3>
                   </div>
                 </Link>
                 <Link href="/topics/quality">
@@ -247,7 +247,7 @@ export default function Home() {
                     <div className="flex flex-center topics_svg">
                       <TbStars />
                     </div>
-                    <h3>Quality</h3>
+                    <h3>Hemp 5</h3>
                   </div>
                 </Link>
               </div>
@@ -277,12 +277,12 @@ export default function Home() {
                 </h4>
                 <div className="social_talks flex flex-center gap-1 mt-2">
                   <div className="st_icon">
-                    <Link href="https://www.instagram.com/bamboosleeping" target="_blank">
+                    <Link href="https://www.instagram.com/hempsimplified" target="_blank">
                       <FaInstagram style={{ color: "#de3fac", fontSize: "30px" }} />
                     </Link>
                   </div>
                   <div className="st_icon">
-                    <Link href="https://se.pinterest.com/bamboosleeping/" target="_blank">
+                    <Link href="https://se.pinterest.com/hempsimplified/" target="_blank">
                       <FaPinterestP style={{ color: "#e60023", fontSize: "30px" }} />
                     </Link>
                   </div>
