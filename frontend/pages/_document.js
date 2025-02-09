@@ -3,7 +3,7 @@ import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import Script from "next/script";
 
 export default function Document() {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.bamboosleeping.com";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.hempsimplified.com";
 
   return (
     <Html lang="en">
@@ -65,7 +65,7 @@ export default function Document() {
           property="og:description"
           content="BambooSleeping: Discover luxurious, eco-friendly bamboo pillows and bedding. Experience unmatched comfort, breathability, and sustainability in every product."
         />
-        <meta property="og:image" content="https://www.bamboosleeping.com/og-image.jpg" />
+        <meta property="og:image" content="https://www.hempsimplified.com/og-image.jpg" />
         <meta property="og:image:width" content="920" />
         <meta property="og:image:height" content="470" />
         <meta property="og:site_name" content="TopGear Tents" />
@@ -82,7 +82,7 @@ export default function Document() {
         <link rel="icon" href="/favicon.png" />
 
         {/* Canonical URL */}
-        <link rel="canonical" href="https://www.bamboosleeping.com" />
+        <link rel="canonical" href="https://www.hempsimplified.com" />
       </Head>
 
       <body>
