@@ -9,7 +9,7 @@ export default function Footer() {
           <Link href="/">
             <Image className="logo" src="/img/Logo/HempSimplified_gold_rd.png" alt="logo" width={100} height={100} />
           </Link>
-          <h4>&copy; 2024 All Rights Reserved.</h4>
+          <h4>&copy; 2025 All Rights Reserved.</h4>
           <h3>
             Coded By <span>@JRcoder</span>
           </h3>
